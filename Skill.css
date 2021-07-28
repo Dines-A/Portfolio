@@ -1,0 +1,103 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    text-transform: capitalize;
+    background: url('star.jpg');
+    background-color: black;
+    background-position: center;
+}
+p {
+ font-size: 20px;
+ text-align: justify;
+ color: #000;
+}
+
+li a{
+    font-size: 20px;
+    /* color: whitesmoke !important;1*/
+}
+.hover:hover{
+    color: #f803c3;
+    border-bottom: 3px solid #f803c3;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        border-bottom : 3px solid #ff00c8;
+    }
+    25% {
+        border-bottom: 3px solid #001aff;
+    }
+    50% {
+        border-bottom: 3px solid #ff1100;
+    }
+    100% {border-bottom: 3px solid #00ff22;
+    }
+  }
+
+.sayhihover{
+    color: #f803c3;
+    border: 3px solid #f803c3;
+    border-radius: 30px;
+    animation-name: sayhihover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sayhihover {
+    0% {
+        border : 3px solid #ff00c8;
+    }
+    25% {
+        border: 3px solid #001aff;
+    }
+    50% {
+        border: 3px solid #ff1100;
+    }
+    100% {border: 3px solid #00ff22;
+    }
+  }
+.fa-html
+{
+  color: #ff3c00;
+}
+.fa-css
+{
+  color: #1100ff;
+}
+.fa-js
+{
+  color: #ffee00;
+}
+  .fa-c{
+    color:  #002fffaf ;
+  }
+  .fa-c1{
+    color: #002fffaf ;
+  }
+ 
+  .fa-py{
+   color: #eeff00e7;
+   opacity: 0.9;
+  }
+  
+  .fa-py:hover{
+   color: #eeff00e7;
+   opacity: 1;
+   text-shadow: 0px 0px yellow ;
+  }
+  
+  .fa-size{
+    font-size: 23px;
+    position: relative;
+    top: -14px;
+  }
+
+.fa-php{
+  color: #001aff;
+}
+.fa-db
+{
+  color: #c4b701;
+}

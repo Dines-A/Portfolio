@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say hi to me!</title>
+
+    <!-- Greetiong css -->
+    <link rel="stylesheet" href="Sayhi.css">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- awesome fonts -->
+    
+    <script src="https://kit.fontawesome.com/a21faf7147.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid"> 
+
+      <ul class="nav my-5 justify-content-between  px-5">
+
+            <li class="nav-item sayhihover my-3  ">
+              <a class="nav-link " href="Sayhi.html" ><i class="fas fa-sync-alt"></i></a>
+            </li>
+
+            <li class="nav-item sayhihover my-3">
+              <a class="nav-link lazy " href="Home.html" ><i class="fas fa-arrow-left"></i></a>
+            </li>
+          </ul> 
+
+          <div class="container">
+
+<!-- social media -->
+
+            <link href='https://fonts.googleapis.com/css?family=Raleway:400,200'
+            rel='stylesheet' type='text/css'> 
+
+           <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" 
+           rel="stylesheet">
+         <nav class="social">
+                   <ul>
+                       <li><a href="https://www.linkedin.com/feed/ " target="_blank" >linkedin <i class="fa fa-linkedin"></i></a></li>
+                       <li><a href="https://github.com/Dines-A " target="_blank" >Github <i class="fa fa-github"></i></a></li>
+                       <li><a href="mailto:dinesha.ei19@bitsathy.ac.in">Email <i class="fas fa-envelope"></i></a></li>
+                       <li><a href="tel:8072626673">Phone <i class="fa fa-phone"></i></a></li>
+                   </ul>
+               </nav>
+
+                <div class="row  my-5 ">
+                    <h2 class="text-center">
+                          Say Something...
+                    </h2>
+                      <form  action="../Php/sayhi.php" method="POST" >
+                      <div class="my-4">
+                        <label for="name" class="form-label">Name</label>
+                            <input type="name" class="form-control"  name="portusername"  placeholder="Dinesh">
+                          
+                          <div class="my-4">
+                        <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="portusermail" placeholder="Dinesha.ei19@bitsathy.ac.in" >
+                        </div>
+  
+                         <div class="my-4">
+                             <label for="textarea" class="form-label"> Message</label>
+                             <textarea class="form-control" id="textarea" rows="3" name="portusermsg" placeholder="Enter you problem"></textarea>
+                           </div>
+  
+  
+                        <div class="text-center my-5" >
+  
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                         </div>
+                        </form>
+  
+                      </div>
+                  </div>
+
+                  </div>
+
+
+</html>

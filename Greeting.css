@@ -1,0 +1,223 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    text-transform: capitalize;
+    background: url('star.jpg');
+    background-position: center;
+}
+.mtcss{
+    margin-top: 18.75rem !important;
+}
+
+li,p{
+    color: whitesmoke ;
+    font-size: 20px;
+}
+
+
+h1{
+    color: whitesmoke ;
+    font-size: 20px;
+    position: relative;
+}  
+
+
+
+
+p::first-letter {
+    font-size: 40px;
+  }
+li a{
+    font-size: 20px;
+    /* color: whitesmoke !important;1*/
+}
+.hover:hover{
+    color: #f803c3;
+    border-bottom: 3px solid #f803c3;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        border-bottom : 3px solid #ff00c8;
+    }
+    25% {
+        border-bottom: 3px solid #001aff;
+    }
+    50% {
+        border-bottom: 3px solid #ff1100;
+    }
+    100% {border-bottom: 3px solid #00ff22;
+    }
+  }
+
+.sayhihover{
+   
+    border: 3px solid #f803c3;
+    border-radius: 30px;
+    animation-name: sayhihover;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes sayhihover {
+    0% {
+        border : 3px solid #ff00c8;
+    }
+    25% {
+        border: 3px solid #001aff;
+    }
+    50% {
+        border: 3px solid #ff1100;
+    }
+    100% {border: 3px solid #00ff22;
+    }
+  }
+
+
+
+  /* social media */
+
+
+
+li,p{
+    color: whitesmoke ;
+    font-size: 20px;
+}
+.hover:hover{
+    color: #f803c3;
+    border-bottom: 3px solid #f803c3;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        border-bottom : 3px solid #ff00c8;
+    }
+    25% {
+        border-bottom: 3px solid #001aff;
+    }
+    50% {
+        border-bottom: 3px solid #ff1100;
+    }
+    100% {border-bottom: 3px solid #00ff22;
+    }
+  }
+
+.sayhihover{
+    color: #f803c3;
+    border: 3px solid #f803c3;
+    border-radius: 30px;
+    animation-name: sayhihover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sayhihover {
+    0% {
+        border : 3px solid #ff00c8;
+    }
+    25% {
+        border: 3px solid #001aff;
+    }
+    50% {
+        border: 3px solid #ff1100;
+    }
+    100% {border: 3px solid #00ff22;
+    }
+  }
+
+.textalign{
+    text-align: justify;
+    line-height: 40px;
+    
+}
+.textalign::first-letter{
+    font-size: 50px;
+}
+.textalign::first-line {
+text-indent: 50px;
+}
+
+
+/* social media  icons */
+
+.social a {
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+
+  .social ul {
+    padding: 0px;
+    -webkit-transform: translate(-555px, 0);
+    -moz-transform: translate(-555px, 0);
+    -ms-transform: translate(-555px, 0);
+    -o-transform: translate(-555px, 0);
+    transform: translate(-555px, 0);
+  }
+  .social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .social ul li:hover a {
+    color: #000;
+  }
+  .social ul li:hover i {
+    color: #fff;
+    background: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li i {
+
+    margin-left: 15px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  
+
+
